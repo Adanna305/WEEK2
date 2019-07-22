@@ -1,5 +1,4 @@
 package day9;
-
 import java.util.Scanner;
 
 public class theTest {
@@ -25,7 +24,15 @@ public class theTest {
 		int red = 20;
 		int pink = 4;
 		
-		System.out.println("Need a calculator " + name );
+		System.out.println("Need a calculator " + name + "? Please answer in yes or no." );
+		String answer = "";
+
+		answer = scam.next();
+		
+		if (answer.equalsIgnoreCase("yes")) {
+			
+		
+		
 		
 		System.out.println("enter a number");
 		color = scam.nextInt();
@@ -50,26 +57,19 @@ public class theTest {
 		 System.out.println("this is the quotient");
 		 pink = red / color ;
 		 System.out.println(pink);
+		
 		 
 		 System.out.println("enter a number and watch what it can do ");
 		 pink = scam.nextInt();
 		 
-		 for (int x = color ; color<=30; color++) {
-				 System.out.println(color);
-				 
-		 }	 if ( red % 4 == 0) {
-				System.out.println("Fizz");
-		 
-		 }
-		
-		
-		
-				
-		
-		
-		
-		
-
+//		 for (int x = color ; color<=30; color++) {
+//				 System.out.println(color);
+//				 
+//		 }	 if ( red % 4 == 0) {
+//				System.out.println("Fizz");
+//		 
+//		 }
+//		}
+	}else {
+		System.out.println("Thank you for your participation");
 	}
-
-}
